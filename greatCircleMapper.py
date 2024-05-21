@@ -31,7 +31,7 @@ def displayMap():
 
 
 def mapRequest(coordinatesList):
-    api = "YOUR_API_KEY"
+    api = "YOUR_MAPS_STATIC_API_KEY"
     url = "https://maps.googleapis.com/maps/api/staticmap?"
     markers = ""
     paths = ""
